@@ -1,5 +1,5 @@
 import "./Mint.css";
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import * as anchor from "@project-serum/anchor";
 import Home from "./Home";
 import { DEFAULT_TIMEOUT } from "./connection";
@@ -21,6 +21,7 @@ import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 
 import { ThemeProvider, createTheme } from "@material-ui/core";
 import Header from "../components/Header/header";
+import Navbar from "../components/Header/Navbar/navbar";
 
 const theme = createTheme({
   palette: {
@@ -63,21 +64,35 @@ const Mint = () => {
   );
 
   return (
-      <ThemeProvider theme={theme}>
-        <ConnectionProvider endpoint={endpoint}>
-          <WalletProvider wallets={wallets} autoConnect>
-            <WalletDialogProvider>
-              <Home
-                candyMachineId={candyMachineId}
-                connection={connection}
-                txTimeout={DEFAULT_TIMEOUT}
-                rpcHost={rpcHost}
-                network={network}
-              />
-            </WalletDialogProvider>
-          </WalletProvider>
-        </ConnectionProvider>
-      </ThemeProvider>
+    <header
+      className="nk-header page-header is-transparent is-sticky is-dark"
+      id="header"
+    >
+      <Navbar />
+      <div className="banner banner-fs tc-light">
+        <div className="nk-block nk-block-header nk-block-sm my-auto">
+          <div className="container pt-5">
+            <div className="banner-caption text-center">
+              <ThemeProvider theme={theme}>
+                <ConnectionProvider endpoint={endpoint}>
+                  <WalletProvider wallets={wallets} autoConnect>
+                    <WalletDialogProvider>
+                      <Home
+                        candyMachineId={candyMachineId}
+                        connection={connection}
+                        txTimeout={DEFAULT_TIMEOUT}
+                        rpcHost={rpcHost}
+                        network={network}
+                      />
+                    </WalletDialogProvider>
+                  </WalletProvider>
+                </ConnectionProvider>
+              </ThemeProvider>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 
