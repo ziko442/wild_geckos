@@ -68,7 +68,7 @@ const Mint = () => {
       className="nk-header page-header is-transparent is-sticky is-dark"
       id="header"
     >
-      <Navbar />
+      
       <div className="banner banner-fs tc-light">
         <div className="nk-block nk-block-header nk-block-sm my-auto">
           <div className="container pt-5">

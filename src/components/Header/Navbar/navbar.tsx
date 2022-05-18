@@ -1,5 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from "react-router-dom";
+
 
 function scrollToTestDiv(secTo:any){
     const divElement = document.getElementById(secTo);
@@ -43,8 +50,7 @@ const Navbar = () => {
                                 <li className="menu-item"><a className="menu-link nav-link" style= {{cursor:'pointer'}} onClick={() => scrollToTestDiv("about")}>About</a></li>
                                 <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("how-to-buy")}>Exchange</a>
                                 </li>
-                                <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} href="/mint">Mint
-                                        NFT</a></li>
+                                <li className="menu-item"><Link className="menu-link nav-link" target="_blank" to="/mint">Mint NFT</Link></li>
                                 <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("tokensale")}>Tokens</a>
                                 </li>
                                 <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("roadmap")}>Roadmap</a></li>
