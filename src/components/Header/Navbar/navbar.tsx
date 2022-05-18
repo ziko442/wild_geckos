@@ -2,8 +2,8 @@
 import React from "react";
 
 function scrollToTestDiv(secTo:any){
-    // const divElement = document.getElementById(secTo);
-    // divElement.scrollIntoView({ behavior: 'smooth' });
+    const divElement = document.getElementById(secTo);
+    divElement?.scrollIntoView({ behavior: 'smooth' });
     
     document.getElementById(secTo)?.scrollIntoView();
     window.location.replace('/#'+secTo);
@@ -39,22 +39,22 @@ const Navbar = () => {
                     <div className="header-navbar animated" data-animate="fadeInDown" data-delay=".6">
                         <nav className="header-menu" id="header-menu">
                             <ul className="menu rounded-pill">
-                                <li className="menu-item"><a className="menu-link nav-link" href="#header">Home</a></li>
-                                <li className="menu-item"><a className="menu-link nav-link" href="#about">About</a></li>
-                                <li className="menu-item"><a className="menu-link nav-link" href="#how-to-buy">Exchange</a>
+                                <li className="menu-item"><a className="menu-link nav-link" style= {{cursor:'pointer'}} onClick={() => scrollToTestDiv("header")} >Home</a></li>
+                                <li className="menu-item"><a className="menu-link nav-link" style= {{cursor:'pointer'}} onClick={() => scrollToTestDiv("about")}>About</a></li>
+                                <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("how-to-buy")}>Exchange</a>
                                 </li>
-                                <li className="menu-item"><a className="menu-link nav-link" href="/mint">Mint
+                                <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} href="/mint">Mint
                                         NFT</a></li>
-                                <li className="menu-item"><a className="menu-link nav-link" href="#tokensale">Tokens</a>
+                                <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("tokensale")}>Tokens</a>
                                 </li>
-                                <li className="menu-item"><a className="menu-link nav-link" href="#roadmap">Roadmap</a></li>
-                                <li className="menu-item"><a className="menu-link nav-link" href="#contact">Contact</a></li>
+                                <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("roadmap")}>Roadmap</a></li>
+                                <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("contact")}>Contact</a></li>
                                 <li className="menu-item has-sub">
                                     <a className="menu-link nav-link menu-toggle" href="#">More</a>
                                     <ul className="menu-sub menu-drop">
-                                        <li className="menu-item"><a className="menu-link nav-link" href="#team">Team</a>
+                                        <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("team")}>Team</a>
                                         </li>
-                                        <li className="menu-item"><a className="menu-link nav-link" href="#faqs">Faqs</a>
+                                        <li className="menu-item"><a className="menu-link nav-link" style={{cursor:'pointer'}} onClick={() => scrollToTestDiv("faqs")}>Faqs</a>
                                         </li>
                                     </ul>
                                 </li>
