@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "../../files/images/logo2.png"
+import logo from "../../static/images/logo2.png"
 
 function scrollToTestDiv(secTo:any){
     // const divElement = document.getElementById(secTo);
