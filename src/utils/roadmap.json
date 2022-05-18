@@ -1,0 +1,63 @@
+{
+  "Quarters": [
+    {
+      "id": "1",
+      "name": "Q2 2022",
+      "period": "Jan - Apr 2022",
+      "finished": true,
+      "running": false,
+      "events": [
+        "Project Overview",
+        "Establish social media presence",
+        "Website launch",
+        "Initial White paper release",
+        "Set marketing strategies",
+        "Building the community"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Q3 2022",
+      "period": "Apr - Jun 2022",
+      "finished": false,
+      "running": true,
+      "events": [
+        "Initial Minting Launch (5000 NFTs)",
+        "Listing NFTs on Major/Leading Platforms",
+        "Second Wave NFTs Minting",
+        "Release of $Token Governance Token",
+        "Partnerships with Major Advertising Platforms ",
+        "Listing NFT on OpenSea and Genesis mint",
+        "CMC and CoinGecko"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Q4 2022",
+      "period": "Jul - Dec 2022",
+      "finished": false,
+      "running": false,
+      "events": [
+        "Staking Operation Dashboard",
+        "Launch NFT Marketplace",
+        "Blockchin,Exchanger platforms and more partnerships",
+        "Gameplay reveal (Trailer)",
+        "Immense Marketing Campaign"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Q1 2023",
+      "period": "Jan - Mars 2023",
+      "finished": false,
+      "running": false,
+      "events": [
+        "Alpha Game",
+        "Expansion through collaborations",
+        "Beta Game Version release",
+        "Proceeding to the next level (Mentoring, breeding, tournaments…)",
+        "To the Moon"
+      ]
+    }
+  ]
+}
