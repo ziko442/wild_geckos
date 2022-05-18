@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo2 from "../../static/images/logo2.png"
 
 function scrollToTestDiv(secTo:any){
     // const divElement = document.getElementById(secTo);
@@ -20,8 +19,8 @@ const Header = () => {
                     {/* <!-- Logo @s --> */}
                     <div className="header-logo logo animated jungle-logo" data-animate="fadeInDown" data-delay=".6">
                         <a href="./" className="logo-link">
-                            <img className="logo-light jungle-logo-light" src={logo2}
-                                srcSet={logo2 + " 2x"} alt="logo"/>
+                            <img className="logo-light jungle-logo-light" src="images/logo2.png"
+                                srcSet="images/logo2.png 2x" alt="logo"/>
                             <h4 className="logo-text">wild geckos</h4>
 
                         </a>

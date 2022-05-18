@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Mint from "./mint/Mint";
 import General from "./General/General";
 
-import "./static/assets/css/customStyle.css";
-import "./static/assets/css/style.css";
-import "./static/assets/css/vendor.bundle.css";
+// import "./static/assets/css/customStyle.css";
+// import "./static/assets/css/style.css";
+// import "./static/assets/css/vendor.bundle.css";
 
 
 class App extends React.Component {

@@ -1,5 +1,4 @@
 import React from 'react'
-import logo2 from '../../../static/images/logo2.png';
 // import json from '../../../utils/test';
 
 const  About = () => {
@@ -21,7 +20,7 @@ const  About = () => {
                 <div className="row justify-content-between align-items-center gutter-vr-40px">
                     <div className="col-lg-6 order-lg-last">
                         <div className="gfx py-4 animated" data-animate="fadeInUp" data-delay="0.2">
-                            <img src={logo2} alt="gfx"/>
+                            <img src="images/logo2.png" alt="gfx"/>
                         </div>
                     </div>
                     <div className="col-lg-5">
