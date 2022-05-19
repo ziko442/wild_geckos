@@ -1,4 +1,4 @@
-navbar -> home (logo and/or project name) about exchange  road-map our-team 
+navbar -> home (logo and/or project name) about exchange->mint  road-map our-team 
 
 section -> home (info about project) -> button (mint your nft now)
 section -> about (general info) -> button (whitepaper)
@@ -10,6 +10,7 @@ social media left pane-bare
 footer -> contact(telegram twiter discord fb insta)
 build token -> zakaria 
 
+link social media to the website 
 resources :
 ===========
 https://aurory.io/
@@ -19,3 +20,5 @@ https://preview.themeforest.net/item/crypto-ico-cryptocurrency-website-landing-p
 
 
 magiceden.com
+
+
