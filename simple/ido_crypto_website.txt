@@ -1,0 +1,19 @@
+navbar -> home (logo and/or project name) about exchange  road-map our-team 
+
+section -> home (info about project) -> button (sale token)
+section -> about (general info) -> button (whitepaper)
+section -> exchange(how to buy token and token address)
+section -> token info 
+section -> advisers
+section -> partners
+social media left pane-bare 
+footer -> contact(telegram twiter discord insta)
+build token -> zakaria 
+
+resources :
+===========
+https://bombcrypto.io/
+https://aurory.io/
+https://coinland.netlify.app/index-demo-2.html
+https://themeforest.net/item/crypto-ico-cryptocurrency-website-landing-page-html-dashboard-template/21968965
+https://preview.themeforest.net/item/crypto-ico-cryptocurrency-website-landing-page-html-dashboard-template/full_screen_preview/21968965
