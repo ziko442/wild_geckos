@@ -1,0 +1,25 @@
+finished:
+=========
+navbar -> home (logo and/or project name) about exchange->mint  
+section -> home (info about project) -> button (mint your nft now)
+section -> about (general info) -> button (whitepaper)
+section -> token info -> nfts info
+section -> advisers -> some geckos imgaes and rarity details (sneak and peack)
+social media left pane-bare 
+footer -> contact(telegram twiter discord fb insta)
+build token -> zakaria 
+
+=====================================================================================
+to do :
+=======
+road-map our-team 
+section -> exchange(how to buy token and token address) -> how to mint 
+section -> partners
+social media folowers at discord twitter and telegram
+
+fix typos in the website
+
+scraping script for telegram twitter and discord
+
+
+
